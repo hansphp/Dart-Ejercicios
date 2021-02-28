@@ -18,4 +18,13 @@ main() {
     ¿Cómo estás?
   ''';
   // print(multilinea);
+
+  // ====================== Booleans
+  bool activo = true;
+  bool corriendo;
+
+  activo = !activo;
+
+  // print(activo);
+
 }
