@@ -8,4 +8,14 @@ main() {
 
   int _a = 30;
   double $b = 5.55;
+
+  // Strings
+  String nombre = 'Tony';
+  String nombre2 = "Tony";
+  String nombre3 = 'O\'Connor';
+  String multilinea = '''
+    Hola mundo
+    ¿Cómo estás?
+  ''';
+  // print(multilinea);
 }
