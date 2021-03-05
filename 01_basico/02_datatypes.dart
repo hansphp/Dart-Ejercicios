@@ -57,4 +57,20 @@ main() {
 
   // print(villanos2.first);
 
+  // ====================== Mapas - Diccionarios.
+  // Llave: valor.
+  Map<String, dynamic> ironman = {
+    'nombre': 'Tony Stark',
+    'poder': 'Inteligencia',
+    'edad': 60
+  };
+
+  print(ironman['nombre']);
+
+  Map<String, dynamic> capitan = new Map();
+
+  capitan.addAll(
+      {'nombre': 'Steve', 'poder': 'Soportar suero sin morir', 'edad': 35});
+
+  print(capitan);
 }
