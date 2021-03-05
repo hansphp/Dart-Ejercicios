@@ -49,4 +49,12 @@ main() {
 
   // print(villanos);
 
+  // ====================== Sets
+  Set<String> villanos2 = {'Lex', 'Zoom', 'Sicada'};
+
+  villanos2.add('Flash Reverso');
+  villanos2.add('Lex'); // Lo omite porque ya existe.
+
+  // print(villanos2.first);
+
 }
